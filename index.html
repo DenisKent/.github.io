@@ -1,1 +1,61 @@
-Hello World
+<head>
+  <title>Denis Kent - Personal Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="cssstyle.css">
+  <script src="jsscripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <span class="header-box">
+    <ul>
+      <li><a href="#HOME" class="nav active"><span>Home</span></a></li><!--
+      --><li><a href="#ABOUT" class="nav"><span>About</span></a></li><!--
+      --><li><a href="#PORTFOLIO"class="nav"><span>Portfolio</span></a></li><!--
+      --><li><a href="#CONTACT"class="nav"><span>Contact</span></a></li>
+    </ul>
+    </span>
+  </header>
+  <div class="banner" id="HOME">
+    <img class="header-img left-aside" src="https://media.licdn.com/dms/image/C4E03AQGxd-9diA364g/profile-displayphoto-shrink_200_200/0?e=1526338800&v=alpha&t=z3wwnQh1qmw3-Iqf6APEacsDUHqKwDR8WypoBZ-YQU4">
+    <div class="right-aside">Welcome to my portfolio page! You can find information on my background, experience and some of the projects I have worked on.
+    </div>
+  </div>
+  <div id="ABOUT">
+    <h2>About me</h2>
+      <ul>
+        <li>I code in the folowing languages: Python (intermediate), VBA (intermediate), SQL (basic), C++ (basic), HTML (basic), CSS (basic), JS (basic)
+        <li>My day job is as a data analyst and strategy consultant focusing on marketing, CRM, data management and KPI development</li>
+        <li>I have a degree in Biochemistry and experience in several industries including healthcare, travel and property</li>
+        <li>I have a strong interest in software development. I fulfil this through projects in my spare time and on rare occations through my work when possible (see <a href="#PORTFOLIO">portfolio</a>)</li>
+        <li>WHY I AM INTERESTED IN WEB DEVELOPMENT</li>
+        <li>WHY I AM INTERESTED IN FOUNDERS& CODERS</li>
+        <li>For detailed information on my education and experience please visit my <a href="https://www.linkedin.com/in/denis-kent-653743a9/" target="_blank">Linkedin</a> page or <a href="#CONTACT">contact</a> me directly</li>
+    </ul>
+  </div>
+
+  <div id="PORTFOLIO">
+    <h2>Portfolio</h2>
+      <ul>
+        <li>Cryptocurrency lending bot</li><img class="portfolio-image" src="https://bitcoin.org/img/icons/opengraph.png">
+        <li>Blackjack card counting brute forcer</li>
+        <li>Arduino sunrise alarm clock</li>
+        <li>Data cleaning algorithms</li>
+        <li>Web scraping</li>
+        <li>Powerpoint and Excel add-ins</li>
+        <li>Websites</li>
+    </ul>
+    </div>
+    <div id="CONTACT">
+        <h2>Contact</h2>
+        <div> You can contact me by email (kentdenis6@hotmail.co.uk), through Linkedin, or by using the form below:
+        </div>
+        <form>
+          Name:<input type="text" name="user-name"><br>
+          Email address:<input type="text" name="email-address"><br>
+          Phone number:<input type="text" name="phone-number"><br>
+          Message:<input type="text" name="user-message"><br>
+          <button type="button" onclick="alert('Message sent!')">Send</button>
+      </form>
+  </div>
+
+</body>
