@@ -1,57 +1,45 @@
-/*NAVIGATION BAR*/
+/*HEADER*/
 header {
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  background-color: #dddddd;
+  position: fixed;
   width: 100%;
+  top: 0;
+  background-color: #dddddd;
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  /*grid-template-rows:*/
+}
+h1, h3 {
+  margin:0;
+  padding:0;
+}
+header div, header h1 {
+  background-color: #5848A0;
+  border: 1px solid black;
+  color: white;
+}
+header div img{
+  height: 27px;
+  width: auto;
+}
+/*CONTENT*/
+.about-content{
+  padding-top: 30px;
+  background-color: #FFE474;
+}
+.portfolio{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 1px solid black;
+  background-color: #5848A0;
+}
+.portfolio div{
+  border: 1px solid black;
   text-align: center;
 }
-header ul {
-    list-style-type: none;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-}
-header ul li {
-  display: inline-block;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-}
-.nav {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+.portfolio div img{
+  height: 100px;
+  width: auto;
 
-}
-.nav span{
-    width: 90px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    text-align: center;
-    background-color: #000;
-}
-.nav span:hover {
-    background: red;
-    color: black;
-}
-.active {
-    background-color: #000;
-  color: white;}
-
-/*CONTENT*/
-.banner {
-  display: flex;
-  border: 1px solid black;
-  align-items: center;
-
-}
-.left-aside {
-  width: 10%;
-  padding: 0.5% 0.5% 0.5% 0.5%;
-}
-.right-aside {
-  width:90%;
-  padding: 0% 0% 0% 0.5%;
-}
-.header-img {
-    height: 10%;
-    border-radius: 50%;
 }
