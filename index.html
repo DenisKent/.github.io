@@ -1,42 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <title>Denis Kent - Personal Portfolio</title>
   <link rel="stylesheet" type="text/css" href="cssstyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Cormorant|Libre+Franklin:600" rel="stylesheet">
 </head>
 <body>
-  <header class="headerbanner">
-    <div><a target="_blank" href="https://github.com/DenisKent"><img src="images/GitHub-Mark-Light-120px-plus.png" alt="Link to github" title="GitHub"></a></div>
-    <div><a target="_blank" href="https://www.meetup.com/members/220570125/"><img src="images/meetup.png" alt="Link to Meetup" title="Meetup"></a></div>
-    <h1>Denis Kent</h1>
-    <div><a target="_blank" href="https://www.freecodecamp.org/deniskent"><img src="images/freeCodeCamp.png" alt="Link to Free Code Camp" title="FreeCodeCamp"></a></div>
-    <div><a target="_blank" href="https://www.codewars.com/users/DenisKent"><img src="images/codeWars.png" alt="Link to Code Wars" title="CodeWars"></a></div>
-
+  <header>
+    <div><a target="_blank" href="https://github.com/DenisKent"><img class = "header-img" src="images/GitHub-Mark-Light-120px-plus.png" alt="Link to github" title="GitHub"></a></div>
+    <div><a target="_blank" href="https://www.freecodecamp.org/deniskent"><img class = "header-img" src="images/freeCodeCamp.svg" alt="Link to Free Code Camp" title="FreeCodeCamp"></a></div>
+    <div><a target="_blank" href="https://www.codewars.com/users/DenisKent"><img class = "header-img" src="images/codeWars.png" alt="Link to Code Wars" title="CodeWars"></a></div>
+    <div><a target="_blank" href="https://www.meetup.com/members/220570125/"><img class = "header-img" src="images/meetup.png" alt="Link to Meetup" title="Meetup"></a></div>
+    <div><a target="_blank" href="https://www.linkedin.com/in/denis-kent-653743a9"><img class = "header-img" src="images/Linkedin-Logo-White-101px-R.png" alt="Link to Linkedin" title="LinkedIn"></a></div>
+    <h1><a href="#about-content">DENIS KENT</a></h1>
   </header>
-  <div class="about-content">
-    <h2 class = "section-title">About me</h2>
-    <p>
-        <li>I code in the folowing languages: Python (intermediate), VBA (intermediate), SQL (basic), C++ (basic), HTML (basic), CSS (basic), JS (basic)
-        <li>My day job is as a data analyst and strategy consultant focusing on marketing, CRM, data management and KPI development</li>
-        <li>I have a degree in Biochemistry and experience in several industries including healthcare, travel and property</li>
-        <li>I have a strong interest in software development. I fulfil this through projects in my spare time and on rare occations through my work when possible portfolio</li>
-        <li>WHY I AM INTERESTED IN WEB DEVELOPMENT</li>
-        <li>WHY I AM INTERESTED IN FOUNDERS& CODERS</li>
-        <li>A note about MY WORK IN EDX COMPUTER SCIENCE</li>
-        <li>About me: Past times: Boxing, Home brewing, Tutoring through Action Tutors, coding</li>
-        <li>For detailed information on my education and experience please visit my Linkedin page or contact me directly</li>
-    </p>
+
+  <div class="about-content" id="about-content">
+    <h2 class = "section-title">ABOUT</h2>
+    <p>My name is Denis Kent. I have an academic background in Molecular Biochemistry and professional experience in consulting.
+      Currently I work as data analyst and strategy consultant advising on small-medium sized company acquisitions.
+      Over the past years I have become interested in coding, largely due to the enjoyment of solving logical problems.</p>
+
+    <p>Having learnt Python and Visual basic in my spare evenings, I have tried to incorporate coding into my role,
+      but there have been few opportunities to do so. In order to further my learning I began work on passion projects
+      (see <a href="#portfolio">portfolio</a>). These developed my language capabilities (Python, VBA, C++),
+      helped me to understand the complexities of developing larger applications and introduced me to basic practicalities of database management and API’s.</p>
+
+    <p>Following this passion will require a transition in to the tech industry.
+      The Founders and Coders bootcamp is ideally structured to provide this.
+      Focusing purely on improving skills through pair programming and regular team
+      workshops helps students learn rapidly while also enabling them to experience larger, more
+      complex projects. Founders and Coders recruiting partner relationships also provide opportunities to enter the workforce quickly.</p>
+
+    <p>Having met some of the current students, I was pleasantly surprised how patient and
+      helpful they were, spending their evenings helping people during workshops.
+      This highlighted to me the environment that students were studying in and the values they have,
+      which I share. I am also attracted by the accessibility of the course. I think it is admirable
+      that it enables people to follow their passion in coding irrespective of their background.
+      The mentoring system in place and the pro bono work done for local businesses/non-profits creates a culture of giving back.</p>
+
+    <p>Thank you for considering me.</p>
   </div>
-  <h2 class = "section-title">Portfolio</h2>
-  <div class="portfolio">
+
+  <span class="hyperlink" id="portfolio"></span>
+  <h2 class = "section-title">PORTFOLIO</h2>
+  <div class="portfolio-large">
     <div>
-      <h3>Cryptocurrency lending bot</h3><img class="portfolio-image" src="https://bitcoin.org/img/icons/opengraph.png" alt="Bitcoin picture" title="Bitcoin">
-      <p>Put in information about the project!!!Put in information about the project!!!Put in information about the project!!!Put in information about the project!!!Put in information about the project!!!Put in information about the project!!!Put in information about the project!!!Put in information about the project!!!Put in information about the project!!!</p>
+      <img class="portfolio-image-large" src="images/BTC-trading.jpg" alt="Bitcoin trading image" title="Bitcoin Lending">
     </div>
-      <div><h3>Blackjack card counting brute forcer</h3><img class="portfolio-image" src="images/blackJack.png" alt="Cards picture" title="Blackjack"></div>
-      <div><h3>Arduino sunrise alarm clock</h3><img class="portfolio-image" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" alt="Arduino" title="Arduino"></div>
-      <div><h3>Work related projects</h3><img class="portfolio-image" src="https://profesoradeinformatica.com/wp-content/uploads/2016/03/Curso-Excel-1.png" alt="Excel" title="Excel">e.g. Data cleaning algorithms, Web scraping, Powerpoint and Excel add-ins</div>
+    <div>
+      <h3>Cryptocurrency lending bot</h3>
+      <p>Put in information about the project!!!Put in information about the project!!!
+        Put in information about the project!!!Put in information about the project!!!</p>
     </div>
+  </div>
+  <div class = "portfolio-small">
+    <div class = "portfolio-small-sub">
+      <div>
+        <img src="images/blackJack.jpg" alt="Cards picture" title="Blackjack">
+      </div>
+      <div>
+      <h3>Blackjack card counting brute forcer</h3>
+      <p>Put in information about the project!!!Put in information about the project!!!
+        Put in information about the project!!!Put in information about the project!!!</p>
+      </div>
+    </div>
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" alt="Arduino" title="Arduino">
+
+      <h3>Other projects</h3>
+      <p>Put in information about the project!!!Put in information about the project!!!
+      Put in information about the project!!!Put in information about the project!!!</p>
+    </div>
+  </div>
   <div class="contact-info">
-    <div><img class="footer-img" src="https://media.licdn.com/dms/image/C4E03AQGxd-9diA364g/profile-displayphoto-shrink_200_200/0?e=1526338800&v=alpha&t=z3wwnQh1qmw3-Iqf6APEacsDUHqKwDR8WypoBZ-YQU4"></div>
-    <div>Contact me at kentdenis6@hotmail.co.uk <a target="_blank" href="https://www.linkedin.com/in/denis-kent-653743a9"><img src="images/Linkedin Logo-White-101px-R.png" alt="Link to Linkedin" title="LinkedIn"></div>
+    <div><img class="footer-img" src="https://media.licdn.com/dms/image/C4E03AQGxd-9diA364g/profile-displayphoto-shrink_200_200/0?e=1526338800&v=alpha&t=z3wwnQh1qmw3-Iqf6APEacsDUHqKwDR8WypoBZ-YQU4" alt="Image of Denis" title="Denis"></div>
+    <div>Contact me at kentdenis6@hotmail.co.uk</div>
   </div>
 </body>
