@@ -98,16 +98,15 @@ body{
   margin-left: 2%;
   grid-gap: 40px 40px;*/
 }
-.portfolio-small-sub{
+/*.portfolio-small-sub{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+  grid-template-columns: 1fr;
+}*/
+
 .portfolio-small-sub img{
   /*display: block;*/
   height: auto;
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 .portfolio-small-sub div ul li{
   margin-bottom: 12px;
@@ -165,4 +164,10 @@ body{
     position: relative;
     top: 2px;
     left: 2px;
+}
+.git-project-link{
+    height: 35px;
+    width: 35px;
+    float: right;
+    margin-top: -10px;
 }
